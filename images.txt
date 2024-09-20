@@ -1,9 +1,14 @@
 nginx:1.8.1
+postgres:14
 mysql:8.0
 mysql:5.7
 redis:7.0.5
-nacos/nacos-server
-portainer
+redis:5.0.4
+redis:6.2.7
+
+elasticsearch:6.5.4
+kibana:6.5.4
+
 bitnami/kafka:2.8.1
 vimagick/cmak
 
@@ -12,8 +17,15 @@ pangliang/rocketmq-console-ng
 
 rabbitmq:3.8.34-management
 
-jenkins/jenkins:lts
+kartoza/geoserver:2.25.0
+
+nacos/nacos-server
+
 node:14
 openjdk:8-jre
+
+jenkins/jenkins:lts
+
+portainer
 rancher/rancher:v2.7.0
 rancher/server:v1.6.18
