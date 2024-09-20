@@ -1,4 +1,4 @@
-nginx:1.8.1
+
 postgres:14
 mysql:8.0
 mysql:5.7
@@ -21,8 +21,11 @@ kartoza/geoserver:2.25.0
 
 nacos/nacos-server
 
-node:14
 openjdk:8-jre
+nginx:1.8.1
+node:14
+tomcat:8.5.28 
+
 
 jenkins/jenkins:lts
 
