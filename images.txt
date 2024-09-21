@@ -1,6 +1,7 @@
 
 postgres:14
 corpusops/postgis:10-2.4
+elestio/pgadmin:latest
 mysql:8.0
 mysql:5.7
 redis:7.0.5
@@ -9,6 +10,8 @@ redis:6.2.7
 
 elasticsearch:6.5.4
 kibana:6.5.4
+elasticsearch:8.7.0
+kibana:8.7.0
 
 bitnami/kafka:2.8.1
 vimagick/cmak
@@ -17,19 +20,31 @@ rocketmqinc/rocketmq:latest
 pangliang/rocketmq-console-ng
 
 rabbitmq:3.8.34-management
+rabbitmq:3.11-management
+
 emqx/emqx:5.3.2
+
+kartoza/geoserver:2.12.1
 kartoza/geoserver:2.25.0
 
+nacos/nacos-server:v2.2.3
 nacos/nacos-server
 
+bitnami/minio:latest
+xuxueli/xxl-job-admin:2.4.0
+
 openjdk:8-jre
-nginx:1.8.1
+openjdk:17-jdk-oraclelinux7
+openjdk:17-jdk-oracle
+nginx:1.15.11-alpine-perl
+nginx:1.23.0-alpine-perl
 node:14
 tomcat:8.5.28 
 
+gitlab/gitlab-ce:latest
+jenkins/jenkins:2.332.3
 
-jenkins/jenkins:lts
-
-portainer
+portainer/portainer-ce:2.9.1
 rancher/rancher:v2.7.0
-rancher/server:v1.6.18
+docker pull rancher/server:stable
+rancher/server:v1.6.30
