@@ -46,5 +46,5 @@ jenkins/jenkins:2.332.3
 
 portainer/portainer-ce:2.9.1
 rancher/rancher:v2.7.0
-docker pull rancher/server:stable
+rancher/server:stable
 rancher/server:v1.6.30
