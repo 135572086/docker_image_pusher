@@ -1,6 +1,4 @@
-
 postgres:14
-corpusops/postgis:10-2.4
 elestio/pgadmin:latest
 mysql:8.0
 mysql:5.7
