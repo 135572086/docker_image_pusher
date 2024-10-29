@@ -22,8 +22,7 @@ rabbitmq:3.11-management
 
 emqx/emqx:5.3.2
 
-kartoza/geoserver:2.12.1
-kartoza/geoserver:2.20.0
+kartoza/geoserver:2.21.3
 kartoza/geoserver:2.25.0
 
 nacos/nacos-server:v2.2.3
