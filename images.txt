@@ -1,3 +1,4 @@
+sonatype/nexus3
 postgres:14
 elestio/pgadmin:latest
 mysql:8.0
