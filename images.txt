@@ -36,6 +36,7 @@ xuxueli/xxl-job-admin:2.4.0
 openjdk:8-jre
 openjdk:17-jdk-oraclelinux7
 openjdk:17-jdk-oracle
+
 nginx:1.15.11-alpine-perl
 nginx:1.23.0-alpine-perl
 node:14
