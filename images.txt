@@ -1,11 +1,10 @@
 sonatype/nexus3:3.37.3
-sonatype/nexus3
 postgres:14
 elestio/pgadmin:latest
 mysql:8.0
 mysql:5.7
+redis:latest
 redis:7.0.5
-redis:5.0.4
 redis:6.2.7
 
 elasticsearch:6.5.4
@@ -49,5 +48,6 @@ jenkins/jenkins:2.332.3
 
 portainer/portainer-ce:2.9.1
 rancher/rancher:v2.7.0
+rancher/rancher:v2.5.17
 rancher/server:stable
 rancher/server:v1.6.30
